@@ -1,0 +1,22 @@
+.meet input {
+  height: 4vh;
+  width: 20vw;
+  outline: none;
+  border: 2px solid black;
+  margin-right: 10px;
+  background-color: rgb(249, 214, 169);
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.meet button {
+  height: 4vh;
+  width: 10vw;
+  outline: none;
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+}
+.meet button:hover {
+  background-color: #598aec;
+}
