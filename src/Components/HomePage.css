@@ -1,4 +1,10 @@
-.meet input {
+/* .meet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.inpt {
   height: 4vh;
   width: 20vw;
   outline: none;
@@ -9,14 +15,27 @@
   border-radius: 5px;
 }
 
-.meet button {
+.btn {
   height: 4vh;
   width: 10vw;
   outline: none;
   border: 1px solid black;
-  color: white;
+  color: black;
   border-radius: 5px;
 }
-.meet button:hover {
-  background-color: #598aec;
+.btn:hover {
+  background-color: #4780f3;
+}
+@media only screen and (min-width: 767px) {
+  .meet {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+  }
+  .meet .inpt {
+    width: 15rem;
+  }
+  .meet .btn {
+    width: 10rem;
+  }
 }

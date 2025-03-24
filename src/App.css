@@ -1,9 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-* {
-  background-color: #0a40b0;
+
+body {
+  background-image: url("./assets/videocallbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+
+  /* margin: 0; */
 }

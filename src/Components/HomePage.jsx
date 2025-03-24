@@ -11,13 +11,16 @@ const HomePage = () => {
   return (
     <div className="meet">
       <input
+        className="inpt"
         value={input}
         onChange={(e) => setInput(e.target.value)}
         type="text"
         placeholder="Enter Your Name..."
       />
 
-      <button onClick={submitHandler}>Join the Meeting</button>
+      <button className="btn" onClick={submitHandler}>
+        Join the Meeting
+      </button>
     </div>
   );
 };
