@@ -27,11 +27,11 @@
   background-color: #4780f3;
 }
 @media only screen and (min-width: 767px) {
-  .meet {
+  /* .meet {
     display: flex;
     justify-content: center;
     margin-top: 50%;
-  }
+  } */
   .meet .inpt {
     width: 15rem;
   }
